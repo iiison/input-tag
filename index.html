@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel=stylesheet href="./css/styles.css">
+</head>
+<body>
+	<div class="xx">test</div>
+	<script src="./dist/input-tag.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var q = document.getElementsByClassName("xx")[0];
+			window.tag = new Tag({container : q});
+		});
+	</script>
+</body>
+</html>

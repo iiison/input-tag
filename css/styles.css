@@ -1,0 +1,62 @@
+/* Global Styles, don't copy these */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.xx{
+	width: 70%;
+	margin: 0 auto;
+}
+/* Global Style Ends*/
+
+/* Plugin Specific style Starts, you can change it if you want */
+.tag-container{
+	background: #fff;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+}
+.tag-container input[type = "text"]{
+	height: 28px;
+    font-size: 14px;
+    width: 200px;
+}
+.tag-container > li{
+	list-style: none;
+	display: inline-block;
+	height: 28px;
+	overflow: hidden;
+	border: 1px solid transparent;
+	margin: 5px;
+}
+.tag-container > li.tag-list{
+	background-color: #DDDEDF;
+}
+li.tag-list > .tag-email{
+	background: none;
+    color: #444;
+    padding: 0 8px;
+    display: inline-block;
+}
+li.tag-list > .tag-cross{
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #268096;
+    color: #ACFCFE;
+}
+.tag-hidden{
+	background: #fff;
+	border: 0;
+	display:inline-block;
+	outline: none !important;
+}
+.error{
+	border-color: #18677A !important;
+}
+ul.error{
+	border-color: #ED412C !important;	
+}
